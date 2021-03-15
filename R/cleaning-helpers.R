@@ -19,3 +19,6 @@ timestamp <- function(time) format(time, "%Y-%B-%d_%H-%M-%S")
 outfile_path <- function(infile) {
   paste0(timestamp(now), "_", sub("(.*)([.]csv$)", "\\1_clean\\2", infile))
 }
+
+
+#### test
